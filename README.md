@@ -1,2 +1,2 @@
 # sghenimi.github.io
-soufiane ghenimi personal website
+welcome to my personal page

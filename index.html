@@ -139,6 +139,7 @@
       <div class="fnav">
         <p>Copyright &copy; 2019 Soufiane Ghenimi. Designed by <a href="http://www.templatewire.com"
             rel="nofollow">TemplateWire</a></p>
+          <p id="date-time"></p>
       </div>
     </div>
   </div>
@@ -153,6 +154,10 @@
   <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
   <script type="text/javascript" src="js/contact_me.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
+  <script>
+        var dt = new Date();
+        document.getElementById('date-time').innerHTML=dt;  
+  </script>
 </body>
 
 </html>
